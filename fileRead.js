@@ -1,0 +1,1 @@
+const fs = require('fs');       //1. 導入fs 模組
