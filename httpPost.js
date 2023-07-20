@@ -8,7 +8,7 @@ const postData = async () => {
       key2: 'value2'
     };
 
-    const response = await axios.post('http://127.0.0.1:5000', data);
+    const response = await axios.post('http://172.16.16.62:5000', data);
     console.log('Response:', response.data);
   } catch (error) {
     if (error.response && error.response.data) {
